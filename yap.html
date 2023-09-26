@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="C-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/0ce7aaec39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        
+        <div class="container">
+
+            <nav>
+                <img src ="logo.png" class="logo">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>FRONT-END DEVELOPER</p>
+                <h1>Hi, I'm <span>Jenny Mae R. Yap</span><br>From Quezon City University</h1>
+            </div>
+
+        </div>
+    </div>
+<!-------------ABOUT------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="jen.jpg">
+                </div>
+                    <div class="about-col-2">
+                    <h1 class ="sub-title">About Me</h1>
+                    <p> I am 4th College Student at Quezon City Universtiy, with the course of 
+                       Bachelor of Science in Information Technology.</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> Designing Web/App interfaces</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>TVL JDVP Computer System Services</span> Access Computer College - Lagro Branch.</li>
+                            <li><span>Work Immersion</span> LTO, Novaliches District Office.</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>COLLEGE</span> Bachelor of Science in Information Technology at Quezon City University. SY.2020- Present</li>
+                            <li><span>Senior High School</span> Information and Communications Technology at Lagro High School. SY 2018-2022</li>
+                            <li><span>Junior High School</span> Cielito Zamora Junior High School. 2012-2018</li>
+                        </ul>
+                       </div>
+                    </div>
+        </div>
+    </div>
+    </div>
+
+    
+
+<!---------------services----------->
+
+<div id="services">
+    <div class="container">
+        <h1 class ="sub-title">My Services</h1>  
+        <div class="services-list">
+            <div>
+                <span class="material-symbols-outlined">
+                    developer_mode
+                    </span>
+                <h2> UI/UX Design </h2>
+                <p> Assist with designing a website's, an app's, or another user's device's graphical user interface.</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Portfolio-------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Web.png">
+
+                <div class="layer">
+                    <h3>Portal Website Design</h3>
+                    <p>System Analysis and Design Project QCU Portal/ Project Manager</p>
+                    <a href="portal_yap.html"><span class="material-symbols-outlined">link</span></a>
+                </div>
+
+            </div>
+                <div class="work">
+                    <img src="App.png">
+                    <div class="layer">
+                        <h3>MIT Application</h3>
+                        <p>IAS101 and CC106 Project UI Designer</p>
+                        <a href="MIT_YAP.html"><span class="material-symbols-outlined">link</span></a>
+                    </div>
+                    
+                </div>
+        </div>
+
+        <!--------CERTIFICATE-->
+        <div id="certificate">
+            <br><br><br>
+                <h1 class="sub-title">Certificate</h1>
+
+                <br><br><br>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 4</div>
+                      <img src="YAPFortinet(1).png" style="width:100%">
+                      <div class="text">Caption Text</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 4</div>
+                      <img src="YAPFortinet2.png" style="width:100%">
+                      <div class="text">Caption Two</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="YAP3Fortinett.png" style="width:100%">
+                      <div class="text">Caption Three</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="YAP4seminar.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                      </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                      <span class="dot" onclick="currentSlide(4)"></span> 
+                    </div>
+        <a href="resume_yap.html" class="btn">Resume</a>
+    </div>
+
+    <!-----Contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><span class="material-symbols-outlined">
+                        mail
+                        </span> jennymae.yap027@gmail.com</p>
+                    <p><span class="material-symbols-outlined">
+                        tty
+                        </span> 09357000159 </p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/yapjennym_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/je.nnyap27"><i class="fa-brands fa-facebook"></i></a>
+                     
+                    </div>  
+                </div>
+
+                
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!----nab bar functions-->
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+      /*-----cert_slide -----*/
+    
+      let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n)
+    {
+        showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n)
+    {
+        showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n)
+    {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+    
+    </script>
+
+</script>
+
+ <!----Footer-->
+          
+ <footer>
+  </footer>
+
+
+</body>
+</html>
