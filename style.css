@@ -4,6 +4,9 @@
     font-family: 'Pooppin',sans-serif;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+    /* Styles for small screens go here */
+}
 .html{
     scroll-behavior: smooth;
 }
@@ -468,13 +471,18 @@ footer .icom :hover
     margin-right: 35%;
     width: 50%;
 }
-/*------ihello-------*/
+/*------ihello CONGRESO-------*/
+.ihello {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    gap:1rem;
+}
 .ihello img{
     display: block;
-    margin-left: 40%;
-    margin-right: 35%;
-    width: 20%;
-    border-radius: 10px;
+    margin-right: 50%;
+    margin-left: 60%;
+    width: 80%;
+    border-radius: 30px;
 }
 /*------MIT-------*/
 .MIT img{
@@ -488,11 +496,32 @@ footer .icom :hover
     grid-gap: 10;
     margin-top: 50px;
 }
-.app img{
+
+/*----UI/UX PIMENTEL-----*/
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
+}
+.app-img{
     display: block;
-    margin-left: 40%;
-    margin-right: 35%;
-    height: 20%;
-    width: 20%;
-    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: -10%;
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+}
+/*-----PIMENTEL WORK 1---*/
+/*------MIT STO TOMAS-------*/
+.MIT {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    gap: 1.5rem;
+}
+.MIT img{
+    display: block;
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 80%;
+    border-radius: 30px;
 }
